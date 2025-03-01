@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34EB6EE3-B334-4AB9-9AFA-3D942024AEDA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TimeKeepingSystemUI</RootNamespace>
+    <AssemblyName>TimeKeepingSystemUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\team.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.140.340.80\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.140.340.80\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.140.340.80\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.140.340.80\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.140.340.80\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.140.340.80\lib\net40\Microsoft.ReportViewer.WebForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.140.340.80\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\Program.cs" />
+    <Compile Include="Forms\FrmActiveMachineId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmActiveMachineId.Designer.cs">
+      <DependentUpon>FrmActiveMachineId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCasherCheckerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCasherCheckerSettings.Designer.cs">
+      <DependentUpon>FrmCasherCheckerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLoading.Designer.cs">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmShiftingSchedules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmShiftingSchedules.Designer.cs">
+      <DependentUpon>FrmShiftingSchedules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTimeRecordTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTimeRecordTools.Designer.cs">
+      <DependentUpon>FrmTimeRecordTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmUsers.Designer.cs">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sampl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sampl.Designer.cs">
+      <DependentUpon>sampl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifiedControls\Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ModifiedControls\CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ModifiedControls\TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ModifiedControls\UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\FormPreviewReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\FormPreviewReport.Designer.cs">
+      <DependentUpon>FormPreviewReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="UserControls\UsrCntrlAssignScheduleWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlAssignScheduleWrapper.Designer.cs">
+      <DependentUpon>UsrCntrlAssignScheduleWrapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlCasherCheckerSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlCasherCheckerSchedule.Designer.cs">
+      <DependentUpon>UsrCntrlCasherCheckerSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlCasherCheckerScheduleDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlCasherCheckerScheduleDetails.Designer.cs">
+      <DependentUpon>UsrCntrlCasherCheckerScheduleDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlCasherCheckerWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlCasherCheckerWrapper.Designer.cs">
+      <DependentUpon>UsrCntrlCasherCheckerWrapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlChangeRestday.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlChangeRestday.Designer.cs">
+      <DependentUpon>UsrCntrlChangeRestday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlChangeShift.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlChangeShift.Designer.cs">
+      <DependentUpon>UsrCntrlChangeShift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlChangeShiftWholeDay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlChangeShiftWholeDay.Designer.cs">
+      <DependentUpon>UsrCntrlChangeShiftWholeDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlDragableHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlDragableHeader.Designer.cs">
+      <DependentUpon>UsrCntrlDragableHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlEmployeeBasicProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlEmployeeBasicProfile.Designer.cs">
+      <DependentUpon>UsrCntrlEmployeeBasicProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlEmployeeSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlEmployeeSchedule.Designer.cs">
+      <DependentUpon>UsrCntrlEmployeeSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlEmployeeScheduleCreateUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlEmployeeScheduleCreateUpdate.Designer.cs">
+      <DependentUpon>UsrCntrlEmployeeScheduleCreateUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlForms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlForms.Designer.cs">
+      <DependentUpon>UsrCntrlForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHoliday.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHoliday.Designer.cs">
+      <DependentUpon>UsrCntrlHoliday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHolidayDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHolidayDetails.Designer.cs">
+      <DependentUpon>UsrCntrlHolidayDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHolidaySchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHolidaySchedule.Designer.cs">
+      <DependentUpon>UsrCntrlHolidaySchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHolidayWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlHolidayWrapper.Designer.cs">
+      <DependentUpon>UsrCntrlHolidayWrapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlitem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlitem.Designer.cs">
+      <DependentUpon>UsrCntrlitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlLeaveUndertime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlLeaveUndertime.Designer.cs">
+      <DependentUpon>UsrCntrlLeaveUndertime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlMenuBtn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlMenuBtn.Designer.cs">
+      <DependentUpon>UsrCntrlMenuBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlMidNightExtended.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlMidNightExtended.Designer.cs">
+      <DependentUpon>UsrCntrlMidNightExtended.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlOtherForms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlOtherForms.Designer.cs">
+      <DependentUpon>UsrCntrlOtherForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlOtherFormsWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlOtherFormsWrapper.Designer.cs">
+      <DependentUpon>UsrCntrlOtherFormsWrapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlPRW.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlPRW.Designer.cs">
+      <DependentUpon>UsrCntrlPRW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportNotEightHours.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportNotEightHours.Designer.cs">
+      <DependentUpon>UsrCntrlReportNotEightHours.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportsAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportsAttendance.Designer.cs">
+      <DependentUpon>UsrCntrlReportsAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportsOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportsOptions.Designer.cs">
+      <DependentUpon>UsrCntrlReportsOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportsWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlReportsWrapper.Designer.cs">
+      <DependentUpon>UsrCntrlReportsWrapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlScheduleCreateUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlScheduleCreateUpdate.Designer.cs">
+      <DependentUpon>UsrCntrlScheduleCreateUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlScheduleView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlScheduleView.Designer.cs">
+      <DependentUpon>UsrCntrlScheduleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlShiftingSchedules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlShiftingSchedules.Designer.cs">
+      <DependentUpon>UsrCntrlShiftingSchedules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlTimeRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlTimeRecord.Designer.cs">
+      <DependentUpon>UsrCntrlTimeRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlToolsSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlToolsSelection.Designer.cs">
+      <DependentUpon>UsrCntrlToolsSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlToolsWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlToolsWrapper.Designer.cs">
+      <DependentUpon>UsrCntrlToolsWrapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlUsers.Designer.cs">
+      <DependentUpon>UsrCntrlUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlUsersDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsrCntrlUsersDetails.Designer.cs">
+      <DependentUpon>UsrCntrlUsersDetails.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmActiveMachineId.resx">
+      <DependentUpon>FrmActiveMachineId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCasherCheckerSettings.resx">
+      <DependentUpon>FrmCasherCheckerSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLoading.resx">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmShiftingSchedules.resx">
+      <DependentUpon>FrmShiftingSchedules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTimeRecordTools.resx">
+      <DependentUpon>FrmTimeRecordTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmUsers.resx">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sampl.resx">
+      <DependentUpon>sampl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reports\FormPreviewReport.resx">
+      <DependentUpon>FormPreviewReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportAttendance.rdlc" />
+    <EmbeddedResource Include="Reports\ReportCasherCheckerSchedule.rdlc" />
+    <EmbeddedResource Include="Reports\ReportChangeRD.rdlc" />
+    <EmbeddedResource Include="Reports\ReportHoliday.rdlc" />
+    <EmbeddedResource Include="Reports\ReportLeaveUndertime.rdlc" />
+    <EmbeddedResource Include="Reports\ReportPRW.rdlc" />
+    <EmbeddedResource Include="UserControls\UsrCntrlAssignScheduleWrapper.resx">
+      <DependentUpon>UsrCntrlAssignScheduleWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlCasherCheckerSchedule.resx">
+      <DependentUpon>UsrCntrlCasherCheckerSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlCasherCheckerScheduleDetails.resx">
+      <DependentUpon>UsrCntrlCasherCheckerScheduleDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlCasherCheckerWrapper.resx">
+      <DependentUpon>UsrCntrlCasherCheckerWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlChangeRestday.resx">
+      <DependentUpon>UsrCntrlChangeRestday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlChangeShift.resx">
+      <DependentUpon>UsrCntrlChangeShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlChangeShiftWholeDay.resx">
+      <DependentUpon>UsrCntrlChangeShiftWholeDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlDragableHeader.resx">
+      <DependentUpon>UsrCntrlDragableHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlEmployeeBasicProfile.resx">
+      <DependentUpon>UsrCntrlEmployeeBasicProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlEmployeeSchedule.resx">
+      <DependentUpon>UsrCntrlEmployeeSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlEmployeeScheduleCreateUpdate.resx">
+      <DependentUpon>UsrCntrlEmployeeScheduleCreateUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlForms.resx">
+      <DependentUpon>UsrCntrlForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlHoliday.resx">
+      <DependentUpon>UsrCntrlHoliday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlHolidayDetails.resx">
+      <DependentUpon>UsrCntrlHolidayDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlHolidaySchedule.resx">
+      <DependentUpon>UsrCntrlHolidaySchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlHolidayWrapper.resx">
+      <DependentUpon>UsrCntrlHolidayWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlitem.resx">
+      <DependentUpon>UsrCntrlitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlLeaveUndertime.resx">
+      <DependentUpon>UsrCntrlLeaveUndertime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlMenuBtn.resx">
+      <DependentUpon>UsrCntrlMenuBtn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlMidNightExtended.resx">
+      <DependentUpon>UsrCntrlMidNightExtended.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlOtherForms.resx">
+      <DependentUpon>UsrCntrlOtherForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlOtherFormsWrapper.resx">
+      <DependentUpon>UsrCntrlOtherFormsWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlPRW.resx">
+      <DependentUpon>UsrCntrlPRW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlReportNotEightHours.resx">
+      <DependentUpon>UsrCntrlReportNotEightHours.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlReportsAttendance.resx">
+      <DependentUpon>UsrCntrlReportsAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlReportsOptions.resx">
+      <DependentUpon>UsrCntrlReportsOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlReportsWrapper.resx">
+      <DependentUpon>UsrCntrlReportsWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlScheduleCreateUpdate.resx">
+      <DependentUpon>UsrCntrlScheduleCreateUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlScheduleView.resx">
+      <DependentUpon>UsrCntrlScheduleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlShiftingSchedules.resx">
+      <DependentUpon>UsrCntrlShiftingSchedules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlTimeRecord.resx">
+      <DependentUpon>UsrCntrlTimeRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlToolsSelection.resx">
+      <DependentUpon>UsrCntrlToolsSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlToolsWrapper.resx">
+      <DependentUpon>UsrCntrlToolsWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlUsers.resx">
+      <DependentUpon>UsrCntrlUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsrCntrlUsersDetails.resx">
+      <DependentUpon>UsrCntrlUsersDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forms35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\others35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeKeepingCode\TimeKeepingCode.csproj">
+      <Project>{D23459EC-DB27-4C58-8A83-F8A772A81453}</Project>
+      <Name>TimeKeepingCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeKeepingDataCode\TimeKeepingDataCode.csproj">
+      <Project>{E0657920-6E4A-4F20-AC15-470DDF1A12CB}</Project>
+      <Name>TimeKeepingDataCode</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schedule100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nothing100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fingerPrint100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNew15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discard15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generate15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\holiday100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userAccount100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casherChecker100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notEightHours.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\others2_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category2_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repost100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

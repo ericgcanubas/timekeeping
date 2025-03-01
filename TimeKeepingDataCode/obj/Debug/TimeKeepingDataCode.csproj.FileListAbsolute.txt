@@ -1,0 +1,14 @@
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingDataCode\bin\Debug\TimeKeepingDataCode.dll
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingDataCode\bin\Debug\TimeKeepingDataCode.pdb
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.dll
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingDataCode\bin\Debug\TimeKeepingDataCode.dll
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingDataCode\bin\Debug\TimeKeepingDataCode.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.dll
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.csprojResolveAssemblyReference.cache
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingDataCode\bin\Debug\TimeKeepingDataCode.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingDataCode\bin\Debug\TimeKeepingDataCode.pdb
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.csprojResolveAssemblyReference.cache
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingDataCode\obj\Debug\TimeKeepingDataCode.pdb

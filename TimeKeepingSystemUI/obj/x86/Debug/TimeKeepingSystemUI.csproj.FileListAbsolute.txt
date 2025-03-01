@@ -1,0 +1,220 @@
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.exe.config
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.exe
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.pdb
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\bin\Debug\TimeKeepingCode.dll
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\bin\Debug\TimeKeepingDataCode.dll
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\bin\Debug\TimeKeepingCode.pdb
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\bin\Debug\TimeKeepingDataCode.pdb
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.csprojResolveAssemblyReference.cache
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmActiveMachineId.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmCasherCheckerSettings.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmLoading.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmLogin.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmMain.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmShiftingSchedules.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmTimeRecordTools.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmUsers.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.sampl.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Properties.Resources.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Reports.FormPreviewReport.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlAssignScheduleWrapper.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerSchedule.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerScheduleDetails.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerWrapper.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeRestday.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeShift.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeShiftWholeDay.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlDragableHeader.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeBasicProfile.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeSchedule.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeScheduleCreateUpdate.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlForms.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHoliday.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidayDetails.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidaySchedule.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidayWrapper.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlitem.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlLeaveUndertime.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlMidNightExtended.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlOtherForms.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlOtherFormsWrapper.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlPRW.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportNotEightHours.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsAttendance.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsOptions.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsWrapper.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlScheduleCreateUpdate.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlScheduleView.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlShiftingSchedules.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlTimeRecord.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlToolsSelection.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlToolsWrapper.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlUsers.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlUsersDetails.resources
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.csproj.GenerateResource.Cache
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\RdlCompile.cache
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\RdlCompile.compiled
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.exe
+C:\Users\GrandDexter\Documents\Visual Studio 2010\Projects\TimeKeepingSystem\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.exe.config
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.exe
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.exe
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingCode.dll
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingDataCode.dll
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingCode.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingDataCode.pdb
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.csprojResolveAssemblyReference.cache
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmActiveMachineId.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmCasherCheckerSettings.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmLoading.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmLogin.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmMain.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmShiftingSchedules.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmTimeRecordTools.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmUsers.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.sampl.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Properties.Resources.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Reports.FormPreviewReport.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlAssignScheduleWrapper.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerSchedule.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerScheduleDetails.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerWrapper.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeRestday.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeShift.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeShiftWholeDay.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlDragableHeader.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeBasicProfile.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeSchedule.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeScheduleCreateUpdate.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlForms.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHoliday.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidayDetails.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidaySchedule.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidayWrapper.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlitem.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlLeaveUndertime.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlMidNightExtended.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlOtherForms.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlOtherFormsWrapper.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlPRW.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportNotEightHours.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsAttendance.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsOptions.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsWrapper.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlScheduleCreateUpdate.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlScheduleView.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlShiftingSchedules.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlTimeRecord.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlToolsSelection.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlToolsWrapper.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlUsers.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlUsersDetails.resources
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.csproj.GenerateResource.Cache
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\RdlCompile.cache
+E:\SMC Programs\FROM DEXTER\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\RdlCompile.compiled
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.exe.config
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.exe
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.pdb
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.csprojResolveAssemblyReference.cache
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmActiveMachineId.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmCasherCheckerSettings.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmLoading.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmLogin.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmMain.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmShiftingSchedules.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmTimeRecordTools.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmUsers.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.sampl.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Properties.Resources.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Reports.FormPreviewReport.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlAssignScheduleWrapper.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerSchedule.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerScheduleDetails.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlCasherCheckerWrapper.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeRestday.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeShift.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlChangeShiftWholeDay.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlDragableHeader.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeBasicProfile.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeSchedule.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlEmployeeScheduleCreateUpdate.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlForms.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHoliday.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidayDetails.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidaySchedule.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlHolidayWrapper.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlitem.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlLeaveUndertime.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlMidNightExtended.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlOtherForms.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlOtherFormsWrapper.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlPRW.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportNotEightHours.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsAttendance.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsOptions.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlReportsWrapper.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlScheduleCreateUpdate.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlScheduleView.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlShiftingSchedules.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlTimeRecord.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlToolsSelection.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlToolsWrapper.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlUsers.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlUsersDetails.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.csproj.GenerateResource.Cache
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.exe
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingSystemUI.pdb
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingCode.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingDataCode.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingCode.pdb
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\TimeKeepingDataCode.pdb
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E0657920-6E4A-4F20-AC15-470DDF1A12CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TimeKeepingDataCode</RootNamespace>
+    <AssemblyName>TimeKeepingDataCode</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Biometrics\AttendanceEmployee.cs" />
+    <Compile Include="Biometrics\CasherCheckerAssignedDetails.cs" />
+    <Compile Include="Biometrics\CasherCheckerAssignedEmployeeDetails.cs" />
+    <Compile Include="Biometrics\CasherCheckerAssignSchedule.cs" />
+    <Compile Include="Biometrics\CasherCheckerDefaults.cs" />
+    <Compile Include="Biometrics\CasherCheckerPOS.cs" />
+    <Compile Include="Biometrics\CasherCheckerPosShifting.cs" />
+    <Compile Include="Biometrics\CasherCheckerWarehouseList.cs" />
+    <Compile Include="Biometrics\ChangeRestday.cs" />
+    <Compile Include="Biometrics\ChangeRestdayDetails.cs" />
+    <Compile Include="Biometrics\ChangeShift.cs" />
+    <Compile Include="Biometrics\EmployeeShifting.cs" />
+    <Compile Include="Biometrics\ExtendedHour.cs" />
+    <Compile Include="Biometrics\Holiday.cs" />
+    <Compile Include="Biometrics\HolidayEmployees.cs" />
+    <Compile Include="Biometrics\HolidayName.cs" />
+    <Compile Include="Biometrics\LeaveUndertime.cs" />
+    <Compile Include="Biometrics\LeaveUndertimeDetails.cs" />
+    <Compile Include="Biometrics\LeaveUndertimeOtherDetails.cs" />
+    <Compile Include="Biometrics\MidNight.cs" />
+    <Compile Include="Biometrics\OvertimeSummary.cs" />
+    <Compile Include="Biometrics\PRW.cs" />
+    <Compile Include="Biometrics\PRWDetails.cs" />
+    <Compile Include="Biometrics\ScheduleType.cs" />
+    <Compile Include="Biometrics\ShiftingSchedule.cs" />
+    <Compile Include="Biometrics\ShiftingType.cs" />
+    <Compile Include="Biometrics\StaticHelper.cs" />
+    <Compile Include="Biometrics\Suspension.cs" />
+    <Compile Include="Biometrics\TimeRecord.cs" />
+    <Compile Include="Biometrics\TimeRecordDetail.cs" />
+    <Compile Include="Biometrics\TimeSummary.cs" />
+    <Compile Include="Biometrics\TimeSummaryDetail.cs" />
+    <Compile Include="Biometrics\TransactionLog.cs" />
+    <Compile Include="Biometrics\UserRoles.cs" />
+    <Compile Include="Biometrics\Users.cs" />
+    <Compile Include="Biometrics\WholeDayChangeShift.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="FilterAttendanceReport.cs" />
+    <Compile Include="FilterClause.cs" />
+    <Compile Include="Modules.cs" />
+    <Compile Include="PayrollSystem\ActionMemo.cs" />
+    <Compile Include="PayrollSystem\ActiveEmployeeBioId.cs" />
+    <Compile Include="PayrollSystem\AgencyClearing.cs" />
+    <Compile Include="PayrollSystem\AgencyHoursSalary.cs" />
+    <Compile Include="PayrollSystem\AgencyName.cs" />
+    <Compile Include="PayrollSystem\Area.cs" />
+    <Compile Include="PayrollSystem\BasicEmployeeInfo.cs" />
+    <Compile Include="PayrollSystem\Branch.cs" />
+    <Compile Include="PayrollSystem\ClearingRate.cs" />
+    <Compile Include="PayrollSystem\Department.cs" />
+    <Compile Include="PayrollSystem\DTRSummary.cs" />
+    <Compile Include="PayrollSystem\EmployeeWithoutBio.cs" />
+    <Compile Include="PayrollSystem\Period.cs" />
+    <Compile Include="PayrollSystem\Position.cs" />
+    <Compile Include="PayrollSystem\Section.cs" />
+    <Compile Include="PayrollSystem\StaticHelper.cs" />
+    <Compile Include="PayrollSystem\Supplier.cs" />
+    <Compile Include="PayrollSystem\TimeSummaryEmployee.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
