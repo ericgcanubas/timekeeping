@@ -39,6 +39,7 @@
             this.usrCntrlHoliday1.Name = "usrCntrlHoliday1";
             this.usrCntrlHoliday1.Size = new System.Drawing.Size(918, 518);
             this.usrCntrlHoliday1.TabIndex = 0;
+            this.usrCntrlHoliday1.Load += new System.EventHandler(this.usrCntrlHoliday1_Load);
             // 
             // UsrCntrlHolidayWrapper
             // 

@@ -30,6 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.pnlNavLeft = new System.Windows.Forms.Panel();
+            this.btnAttedanceBio = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
+            this.btnTools = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
+            this.btnReport = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
+            this.btnOtherForms = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
+            this.btnForms = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
+            this.btnEmployee = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
             this.pnlTitleSeparator = new System.Windows.Forms.Panel();
             this.pnlNavLeftHeader = new System.Windows.Forms.Panel();
             this.picHamburger = new System.Windows.Forms.PictureBox();
@@ -39,11 +45,6 @@
             this.lblUserLogin = new System.Windows.Forms.Label();
             this.lblAutor = new System.Windows.Forms.Label();
             this.usrCntrlHeader = new TimeKeepingSystemUI.UserControls.UsrCntrlDragableHeader();
-            this.btnTools = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
-            this.btnReport = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
-            this.btnOtherForms = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
-            this.btnForms = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
-            this.btnEmployee = new TimeKeepingSystemUI.UserControls.UsrCntrlMenuBtn();
             this.pnlNavLeft.SuspendLayout();
             this.pnlNavLeftHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHamburger)).BeginInit();
@@ -54,6 +55,7 @@
             // pnlNavLeft
             // 
             this.pnlNavLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
+            this.pnlNavLeft.Controls.Add(this.btnAttedanceBio);
             this.pnlNavLeft.Controls.Add(this.btnTools);
             this.pnlNavLeft.Controls.Add(this.btnReport);
             this.pnlNavLeft.Controls.Add(this.btnOtherForms);
@@ -66,6 +68,91 @@
             this.pnlNavLeft.Name = "pnlNavLeft";
             this.pnlNavLeft.Size = new System.Drawing.Size(180, 632);
             this.pnlNavLeft.TabIndex = 1;
+            // 
+            // btnAttedanceBio
+            // 
+            this.btnAttedanceBio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
+            this.btnAttedanceBio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAttedanceBio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAttedanceBio.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAttedanceBio.Icon = ((System.Drawing.Image)(resources.GetObject("btnAttedanceBio.Icon")));
+            this.btnAttedanceBio.LabelText = "Attedance Upload";
+            this.btnAttedanceBio.Location = new System.Drawing.Point(0, 236);
+            this.btnAttedanceBio.Name = "btnAttedanceBio";
+            this.btnAttedanceBio.Size = new System.Drawing.Size(180, 40);
+            this.btnAttedanceBio.TabIndex = 7;
+            this.btnAttedanceBio.Visible = false;
+            this.btnAttedanceBio.Click += new System.EventHandler(this.btnAttedanceBio_Click);
+            // 
+            // btnTools
+            // 
+            this.btnTools.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
+            this.btnTools.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTools.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTools.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTools.Icon = ((System.Drawing.Image)(resources.GetObject("btnTools.Icon")));
+            this.btnTools.LabelText = "Tools";
+            this.btnTools.Location = new System.Drawing.Point(0, 196);
+            this.btnTools.Name = "btnTools";
+            this.btnTools.Size = new System.Drawing.Size(180, 40);
+            this.btnTools.TabIndex = 6;
+            this.btnTools.Click += new System.EventHandler(this.ToolsOnClick);
+            // 
+            // btnReport
+            // 
+            this.btnReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
+            this.btnReport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReport.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReport.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReport.Icon = ((System.Drawing.Image)(resources.GetObject("btnReport.Icon")));
+            this.btnReport.LabelText = "Reports";
+            this.btnReport.Location = new System.Drawing.Point(0, 152);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(180, 44);
+            this.btnReport.TabIndex = 5;
+            this.btnReport.Click += new System.EventHandler(this.ReportsOnClick);
+            // 
+            // btnOtherForms
+            // 
+            this.btnOtherForms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
+            this.btnOtherForms.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOtherForms.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnOtherForms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOtherForms.Icon = ((System.Drawing.Image)(resources.GetObject("btnOtherForms.Icon")));
+            this.btnOtherForms.LabelText = "Other Forms";
+            this.btnOtherForms.Location = new System.Drawing.Point(0, 112);
+            this.btnOtherForms.Name = "btnOtherForms";
+            this.btnOtherForms.Size = new System.Drawing.Size(180, 40);
+            this.btnOtherForms.TabIndex = 4;
+            this.btnOtherForms.Click += new System.EventHandler(this.OtherFormsOnClick);
+            // 
+            // btnForms
+            // 
+            this.btnForms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
+            this.btnForms.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnForms.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnForms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnForms.Icon = ((System.Drawing.Image)(resources.GetObject("btnForms.Icon")));
+            this.btnForms.LabelText = "Application Forms";
+            this.btnForms.Location = new System.Drawing.Point(0, 72);
+            this.btnForms.Name = "btnForms";
+            this.btnForms.Size = new System.Drawing.Size(180, 40);
+            this.btnForms.TabIndex = 3;
+            this.btnForms.Click += new System.EventHandler(this.ApplicationFormsOnClick);
+            // 
+            // btnEmployee
+            // 
+            this.btnEmployee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
+            this.btnEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEmployee.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmployee.Icon = ((System.Drawing.Image)(resources.GetObject("btnEmployee.Icon")));
+            this.btnEmployee.LabelText = "Employee Profile";
+            this.btnEmployee.Location = new System.Drawing.Point(0, 32);
+            this.btnEmployee.Name = "btnEmployee";
+            this.btnEmployee.Size = new System.Drawing.Size(180, 40);
+            this.btnEmployee.TabIndex = 2;
+            this.btnEmployee.Click += new System.EventHandler(this.ProfileOnClick);
             // 
             // pnlTitleSeparator
             // 
@@ -146,9 +233,9 @@
             // 
             this.lblAutor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAutor.AutoSize = true;
-            this.lblAutor.Location = new System.Drawing.Point(761, 9);
+            this.lblAutor.Location = new System.Drawing.Point(885, 9);
             this.lblAutor.Name = "lblAutor";
-            this.lblAutor.Size = new System.Drawing.Size(158, 13);
+            this.lblAutor.Size = new System.Drawing.Size(157, 13);
             this.lblAutor.TabIndex = 0;
             this.lblAutor.Text = "By: dechalico.dev@gmail.com";
             // 
@@ -166,76 +253,6 @@
             this.usrCntrlHeader.SetHeaderText = "Header Text";
             this.usrCntrlHeader.Size = new System.Drawing.Size(931, 30);
             this.usrCntrlHeader.TabIndex = 2;
-            // 
-            // btnTools
-            // 
-            this.btnTools.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
-            this.btnTools.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTools.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTools.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTools.Icon = ((System.Drawing.Image)(resources.GetObject("btnTools.Icon")));
-            this.btnTools.LabelText = "Tools";
-            this.btnTools.Location = new System.Drawing.Point(0, 192);
-            this.btnTools.Name = "btnTools";
-            this.btnTools.Size = new System.Drawing.Size(180, 40);
-            this.btnTools.TabIndex = 6;
-            this.btnTools.Click += new System.EventHandler(this.ToolsOnClick);
-            // 
-            // btnReport
-            // 
-            this.btnReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
-            this.btnReport.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReport.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReport.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReport.Icon = ((System.Drawing.Image)(resources.GetObject("btnReport.Icon")));
-            this.btnReport.LabelText = "Reports";
-            this.btnReport.Location = new System.Drawing.Point(0, 152);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Size = new System.Drawing.Size(180, 40);
-            this.btnReport.TabIndex = 5;
-            this.btnReport.Click += new System.EventHandler(this.ReportsOnClick);
-            // 
-            // btnOtherForms
-            // 
-            this.btnOtherForms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
-            this.btnOtherForms.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOtherForms.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnOtherForms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOtherForms.Icon = ((System.Drawing.Image)(resources.GetObject("btnOtherForms.Icon")));
-            this.btnOtherForms.LabelText = "Other Forms";
-            this.btnOtherForms.Location = new System.Drawing.Point(0, 112);
-            this.btnOtherForms.Name = "btnOtherForms";
-            this.btnOtherForms.Size = new System.Drawing.Size(180, 40);
-            this.btnOtherForms.TabIndex = 4;
-            this.btnOtherForms.Click += new System.EventHandler(this.OtherFormsOnClick);
-            // 
-            // btnForms
-            // 
-            this.btnForms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
-            this.btnForms.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnForms.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnForms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnForms.Icon = ((System.Drawing.Image)(resources.GetObject("btnForms.Icon")));
-            this.btnForms.LabelText = "Application Forms";
-            this.btnForms.Location = new System.Drawing.Point(0, 72);
-            this.btnForms.Name = "btnForms";
-            this.btnForms.Size = new System.Drawing.Size(180, 40);
-            this.btnForms.TabIndex = 3;
-            this.btnForms.Click += new System.EventHandler(this.ApplicationFormsOnClick);
-            // 
-            // btnEmployee
-            // 
-            this.btnEmployee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(109)))), ((int)(((byte)(126)))));
-            this.btnEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEmployee.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmployee.Icon = ((System.Drawing.Image)(resources.GetObject("btnEmployee.Icon")));
-            this.btnEmployee.LabelText = "Employee Profile";
-            this.btnEmployee.Location = new System.Drawing.Point(0, 32);
-            this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(180, 40);
-            this.btnEmployee.TabIndex = 2;
-            this.btnEmployee.Click += new System.EventHandler(this.ProfileOnClick);
             // 
             // FrmMain
             // 
@@ -284,5 +301,6 @@
         private System.Windows.Forms.PictureBox picHamburger;
         private UserControls.UsrCntrlMenuBtn btnTools;
         private UserControls.UsrCntrlDragableHeader usrCntrlHeader;
+        private UserControls.UsrCntrlMenuBtn btnAttedanceBio;
     }
 }

@@ -418,8 +418,7 @@ namespace TimeKeepingSystemUI.UserControls
             report.rptViewer.LocalReport.DataSources.Add(new
                 Microsoft.Reporting.WinForms.ReportDataSource("AttendanceDataReport", table));
             report.rptViewer.LocalReport.ReportEmbeddedResource = "TimeKeepingSystemUI.Reports.ReportAttendance.rdlc";
-            report.rptViewer.LocalReport.SetParameters(new Microsoft.Reporting.WinForms.ReportParameter
-                ("attendanceDate", dtpDate.Value.ToString("MMMM dd, yyyy")));
+            report.rptViewer.LocalReport.SetParameters(new Microsoft.Reporting.WinForms.ReportParameter("attendanceDate", dtpDate.Value.ToString("MMMM dd, yyyy")));
             report.rptViewer.RefreshReport();
             report.rptViewer.Refresh();
             report.ShowDialog();

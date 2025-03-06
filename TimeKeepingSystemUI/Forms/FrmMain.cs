@@ -156,7 +156,17 @@ namespace TimeKeepingSystemUI.Forms
                 lblTitle.Visible = true;
             }
         }
-
+        private void btnAttedanceBio_Click(object sender, EventArgs e)
+        {
+            SelectNavigation(btnAttedanceBio);
+            if (pnlWrapper.Controls[UserControls.UsrCntrlUploadBio.Instance.Name] != null)
+                UserControls.UsrCntrlUploadBio.Instance.BringToFront();
+            else
+            {
+                pnlWrapper.Controls.Add(UserControls.UsrCntrlUploadBio.Instance);
+                UserControls.UsrCntrlUploadBio.Instance.BringToFront();
+            }
+        }
         private void Toggle() 
         {
             for (int i = 0; i < pnlNavLeft.Controls.Count; i++)
@@ -197,6 +207,10 @@ namespace TimeKeepingSystemUI.Forms
             this.btnOtherForms.Icon = TimeKeepingSystemUI.Properties.Resources.category2_35;
             this.btnForms.Icon = TimeKeepingSystemUI.Properties.Resources.forms35;
             this.btnEmployee.Icon = TimeKeepingSystemUI.Properties.Resources.profile35;
+            this.btnAttedanceBio.Icon = TimeKeepingSystemUI.Properties.Resources.profile35;
         }
+
+    
+   
     }
 }

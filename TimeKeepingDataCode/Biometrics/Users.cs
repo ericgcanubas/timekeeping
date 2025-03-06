@@ -16,8 +16,7 @@ namespace TimeKeepingDataCode.Biometrics
         public DateTime DateAdded { get; set; }
         public string AddedBy { get; set; }
 
-        public Users(int id,string firstName,string middleName,string lastName,
-            string username,string password,DateTime dateAdded,string addedBy)
+        public Users(int id,string firstName,string middleName,string lastName,string username,string password,DateTime dateAdded,string addedBy)
         {
             this.Id = id;
             this.FirstName = firstName;

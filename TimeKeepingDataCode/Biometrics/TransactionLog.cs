@@ -10,15 +10,15 @@ namespace TimeKeepingDataCode.Biometrics
         public int MachineNo { get; set; }
         public int MachineId { get; set; }
         public DateTime ActualDate { get; set; }
-        public DateTime ActualTime {get; set;}
+        public DateTime ActualTime { get; set; }
         public string InOutMode { get; set; }
         public string EntryMode { get; set; }
         public bool IsPosted { get; set; }
         public string EmployeeName { get; set; }
 
-        public TransactionLog(int pk,int empPk,int machineNo,int machineId,
-            DateTime actualDate,DateTime actualTime,string inOutMode,string entryMode,
-            bool isPosted,string employeeName)
+        public TransactionLog(int pk, int empPk, int machineNo, int machineId,
+            DateTime actualDate, DateTime actualTime, string inOutMode, string entryMode,
+            bool isPosted, string employeeName)
         {
             this.Pk = pk;
             this.EmpPk = empPk;
@@ -32,20 +32,20 @@ namespace TimeKeepingDataCode.Biometrics
             this.EmployeeName = employeeName;
         }
 
-        public static List<TransactionLog> GetAllTransactionLog(Connection connection) 
+        public static List<TransactionLog> GetAllTransactionLog(Connection connection)
         {
-            return GetDatas(connection,QueryFilter(new FilterClause<int>(),new FilterClause<int>(),
-                new FilterClause<DateTime>(),new FilterClause<bool>()));
+            return GetDatas(connection, QueryFilter(new FilterClause<int>(), new FilterClause<int>(),
+                new FilterClause<DateTime>(), new FilterClause<bool>()));
         }
 
-        public static List<TransactionLog> GetAllTransactionLog(Connection connection,DateTime date,int empPk)
+        public static List<TransactionLog> GetAllTransactionLog(Connection connection, DateTime date, int empPk)
         {
             return GetDatas(connection, QueryFilter(new FilterClause<int>(), new FilterClause<int>(empPk),
                 new FilterClause<DateTime>(date), new FilterClause<bool>()));
         }
 
-        private static string QueryFilter(FilterClause<int> pk,FilterClause<int> empPk,
-            FilterClause<DateTime> actualDate,FilterClause<bool> isPosted) 
+        private static string QueryFilter(FilterClause<int> pk, FilterClause<int> empPk,
+            FilterClause<DateTime> actualDate, FilterClause<bool> isPosted)
         {
             string pkWhereClause = string.Empty;
             string empPkWhereClause = string.Empty;
@@ -68,7 +68,7 @@ namespace TimeKeepingDataCode.Biometrics
             return query;
         }
 
-        private static List<TransactionLog> GetDatas(Connection connection,string query) 
+        private static List<TransactionLog> GetDatas(Connection connection, string query)
         {
             List<TransactionLog> result = new List<TransactionLog>();
             var d = connection.GetData(query);
@@ -83,7 +83,7 @@ namespace TimeKeepingDataCode.Biometrics
             return result;
         }
 
-        private static TransactionLog GetData(Connection connection,string query) 
+        private static TransactionLog GetData(Connection connection, string query)
         {
             TransactionLog result = null;
             var d = connection.GetData(query);
@@ -98,10 +98,10 @@ namespace TimeKeepingDataCode.Biometrics
             return result;
         }
 
-        public static bool IsEmployeeHaveTransactionLog(Connection connection,DateTime date,int empPk)
+        public static bool IsEmployeeHaveTransactionLog(Connection connection, DateTime date, int empPk)
         {
-            var d = connection.GetData(QueryFilter(new FilterClause<int>(),new FilterClause<int>(empPk),
-                new FilterClause<DateTime>(date),new FilterClause<bool>()));
+            var d = connection.GetData(QueryFilter(new FilterClause<int>(), new FilterClause<int>(empPk),
+                new FilterClause<DateTime>(date), new FilterClause<bool>()));
 
             if (d.Rows.Count > 0)
                 return true;
@@ -109,7 +109,7 @@ namespace TimeKeepingDataCode.Biometrics
                 return false;
         }
 
-        public static bool RepostTransactionLog(Connection connection,DateTime tranactionDate,int empPk,List<Tuple<int,string>> pair) 
+        public static bool RepostTransactionLog(Connection connection, DateTime tranactionDate, int empPk, List<Tuple<int, string>> pair)
         {
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
 
@@ -127,6 +127,31 @@ namespace TimeKeepingDataCode.Biometrics
             }
 
             return connection.Execute(sb.ToString());
+        }
+
+        public static bool AddTransactionLog(Connection connection, int EmpPk, int MachineNo, int MachineId, DateTime ActualDate, DateTime ActualTime, string InOutMode, string EntryMode, string EmployeeName)
+        {
+
+
+
+            string query = $@"
+            IF NOT EXISTS (
+                SELECT 1 FROM tbl_TargetLog 
+                WHERE EmpPK = {EmpPk}
+                AND MachineNo = {MachineNo}
+                AND MachineID = {MachineId}
+                AND Actual_Date = '{ActualDate}'
+                AND Actual_Time = '{ActualTime}'
+                AND InOutMode = '{InOutMode}'
+                AND EntryMode = '{EntryMode}'
+            )
+            BEGIN
+                INSERT INTO tbl_TargetLog (EmpPK, MachineNo, MachineID, Actual_Date, Actual_Time, InOutMode, EntryMode,Posted,EmployeeName)
+                VALUES ({EmpPk}, {MachineNo}, {MachineId},'{ActualDate}', '{ActualTime}', '{InOutMode}', '{EntryMode}',0,'{EmployeeName}');
+            END";
+
+            return connection.Execute(query);
+
         }
     }
 }

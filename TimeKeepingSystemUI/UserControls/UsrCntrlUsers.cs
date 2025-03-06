@@ -92,5 +92,10 @@ namespace TimeKeepingSystemUI.UserControls
             else
                 MessageBox.Show("No Selected User.","Invalid",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
+
+        private void gridUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

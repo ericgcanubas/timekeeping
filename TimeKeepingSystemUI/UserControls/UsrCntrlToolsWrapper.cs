@@ -20,5 +20,10 @@ namespace TimeKeepingSystemUI.UserControls
                 return instance;
             }
         }
+
+        private void usrCntrlToolsSelection1_Load(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

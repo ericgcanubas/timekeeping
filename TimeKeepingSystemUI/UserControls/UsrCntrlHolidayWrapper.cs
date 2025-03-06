@@ -27,5 +27,10 @@ namespace TimeKeepingSystemUI.UserControls
                 return instance;
             }
         }
+
+        private void usrCntrlHoliday1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

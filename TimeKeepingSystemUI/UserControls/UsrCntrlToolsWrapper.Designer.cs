@@ -38,6 +38,7 @@
             this.usrCntrlToolsSelection1.Name = "usrCntrlToolsSelection1";
             this.usrCntrlToolsSelection1.Size = new System.Drawing.Size(824, 542);
             this.usrCntrlToolsSelection1.TabIndex = 0;
+            this.usrCntrlToolsSelection1.Load += new System.EventHandler(this.usrCntrlToolsSelection1_Load);
             // 
             // UsrCntrlToolsWrapper
             // 

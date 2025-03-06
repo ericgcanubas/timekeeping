@@ -218,3 +218,5 @@ D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHS\Micros
 D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.Forms.FrmUploadBio.resources
+D:\Source Code\TimeKeepingSystem NEW\TimeKeepingSystemUI\obj\x86\Debug\TimeKeepingSystemUI.UserControls.UsrCntrlUploadBio.resources
